@@ -23,10 +23,10 @@ const NAV = [
 ];
 
 const PROJECTS = [
-  { title: "Coffee Shop Website", tag: "Web Design", desc: "Warm, minimal landing page for a neighborhood café with online menu.", img: coffeeImg },
-  { title: "3D Animated Landing", tag: "Concept", desc: "Futuristic landing concept with floating gradient orbs and motion.", img: threeDImg },
-  { title: "Video Editing Reel", tag: "Video", desc: "Short-form edit sample with color grade and rhythmic cuts.", img: videoImg },
-  { title: "Neon Brand Identity", tag: "Creative", desc: "A glowing identity exploration for a digital-first studio.", img: brandImg },
+  { title: "Coffee Shop Website", tag: "Web Design", desc: "Warm, minimal landing page for a neighborhood café with online menu.", img: coffeeImg, href: "https://brew-to-web-magic.lovable.app/" },
+  { title: "3D Animated Landing", tag: "Concept", desc: "Futuristic landing concept with floating gradient orbs and motion.", img: threeDImg, href: "#contact" },
+  { title: "Video Editing Reel", tag: "Video", desc: "Short-form edit sample with color grade and rhythmic cuts.", img: videoImg, href: "#contact" },
+  { title: "Neon Brand Identity", tag: "Creative", desc: "A glowing identity exploration for a digital-first studio.", img: brandImg, href: "#contact" },
 ];
 
 const SKILLS = [
