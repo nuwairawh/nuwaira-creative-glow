@@ -215,7 +215,9 @@ function Projects() {
         <div className="grid gap-6 md:grid-cols-2">
           {PROJECTS.map((p, i) => (
             <motion.a
-              key={p.title} href="#contact"
+              key={p.title} href={p.href}
+              target={p.href.startsWith('http') ? '_blank' : undefined}
+              rel={p.href.startsWith('http') ? 'noopener noreferrer' : undefined}
               initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.6, delay: i * 0.08 }}
               whileHover={{ y: -6 }}
