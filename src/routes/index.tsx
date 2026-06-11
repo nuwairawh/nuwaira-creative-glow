@@ -320,7 +320,7 @@ function Contact() {
             </button>
             <div className="flex flex-wrap items-center justify-between gap-4 border-t border-[var(--glass-border)] pt-5">
               <a href="mailto:nuwairaahmd4@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
-                <Mail className="h-4 w-4" /> hello@nuwaira.com
+                <Mail className="h-4 w-4" /> nuwairaahmd4@gmail.com
               </a>
               <div className="flex items-center gap-2">
                 {[Github, Twitter, Instagram, Linkedin].map((Icon, i) => (
