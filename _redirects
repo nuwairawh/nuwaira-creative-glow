@@ -1,0 +1,2 @@
+# Netlify redirects for SPA fallback (optional for single-page sites)
+/* /index.html 200
